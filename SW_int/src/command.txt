@@ -1,0 +1,3 @@
+./seqMatcher 40000 1000 ../testdata/database.txt ../testdata/specimen.txt scores_accel.bin
+md5sum scores_accel.bin
+cat ../testdata/scores_gold.md5
